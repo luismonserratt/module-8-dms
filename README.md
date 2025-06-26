@@ -16,17 +16,11 @@ This is a command-line Java application developed for the Module 8 Database Mana
 The application supports importing movie data from a text file. Each line in the file must follow this format:
 title,genre,year,rating,duration,available
 
-shell
-Copiar
-Editar
 ### Example:
 Inception,Sci-Fi,2010,8.8,148,true
 Titanic,Romance,1997,7.8,195,true
 The Matrix,Sci-Fi,1999,8.7,136,true
 
-bash
-Copiar
-Editar
 
 ## How to Run
 
@@ -42,8 +36,6 @@ cd /Users/luisaugustomonserratt/IdeaProjects/module\ 8/out/artifacts/module_8_ja
 java -jar "module 8.jar"
 When prompted, type:
 
-Copiar
-Editar
 movies_sample_data.txt
 Unit Testing
 Unit tests are provided in MovieManagerTest.java using JUnit 5. These tests validate:
